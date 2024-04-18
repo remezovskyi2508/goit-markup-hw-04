@@ -363,7 +363,7 @@ main {
 }
 
 .descr-overlay {
-  background-color: #4d5ae5; 
+  background-color: #4d5ae5;
   padding: 40px 32px;
   color: #f4f4fd;
   position: absolute;
@@ -372,7 +372,7 @@ main {
   width: 100%;
   height: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img {
@@ -391,7 +391,7 @@ main {
   padding: 100px 0;
 }
 
-.footer-column {
+.footer-container {
   display: flex;
   gap: 120px;
 }
@@ -417,12 +417,10 @@ main {
   color: #f4f4fd;
   max-width: 264px;
 }
-.footer-header {
+
+.footer-social-text {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   color: #fff;
-  text-align: left;
   margin: 0;
 }
 
