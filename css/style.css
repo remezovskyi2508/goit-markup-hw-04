@@ -79,7 +79,6 @@ button {
 
 .navigator {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -237,8 +236,6 @@ main {
 .advantages-list {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
-  margin: 0 15px;
 }
 
 .advantages-card {
@@ -357,7 +354,7 @@ main {
   overflow: hidden;
 }
 
-.portfolio-box:hover .descr-overlay {
+.portfolio-list:hover .descr-overlay {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
